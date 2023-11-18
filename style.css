@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.HEX_head{
+    text-align: center;
+}
+.HEX_head h1{
+    font-family:cursive;
+    animation: colourchange 5s ease-in-out infinite alternate;
+    /* font-size: 50px; */
+}
+#butn{
+     padding: 12px 32px;
+    border-radius: 10px;
+    background-color: lightblue;
+    box-shadow: 1px 2px 5px 1px inset;
+    font-family: cursive;
+    font-size: 20px;
+} 
